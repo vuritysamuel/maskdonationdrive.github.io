@@ -1,0 +1,289 @@
+#logo{
+    width: 100px;
+    position: static;
+    left: 680px;
+    box-align: center;
+    padding-left: 675px;
+}
+
+
+#text{
+    text-align: center;
+    position: relative;
+    top: 160px;
+    color: white;
+
+}
+
+
+.iglogo{
+    width: 50px;
+    position: relative;
+    top: 795px;
+    left: 620px;
+    color: white;
+}
+    
+
+#superhero{
+    box-align: center;
+    position: relative;
+    width: 350px;
+    bottom: 150px;
+    left:550px;
+
+}
+
+
+#igid{
+    position: absolute;
+    text-shadow: black;
+    font-size: 30px;
+    left: 680px;
+    top: 950px;
+}
+
+
+#countdown-wrap {
+width: 50%;
+position: relative;
+box-align: center;
+bottom:120px;
+left: 500px;
+height: 100px;
+padding: 0px;
+font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+max-width: 550px;
+
+
+}
+
+#goal {
+    font-size: 20px;
+    position: relative;
+    left: 340px;
+    font-weight: bold;
+    color: #29468d;
+    @media only screen and (max-width : 640px) {
+    text-align: center;  
+}
+
+}
+
+#glass {
+    width: 80%;
+    height: 20px;
+    background: #c7c7c7;
+    border-radius: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+#progress {
+    float: left;
+    width: 10%;
+    height: 20px;
+    background: #FF5D50;
+    z-index: 333;
+
+}
+
+.goal-stat {
+    width: 25%;
+    padding: 10px;
+    float: left;
+    margin: 0;
+    color: #FFF;
+    
+    @media only screen and (max-width : 640px) {
+    width: 50%;
+    text-align: center;
+}
+}
+
+.goal-number {
+    position: static;
+    top: 625px;
+    left: 475px;
+    font-weight: bold;
+}
+
+
+a.button1{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    position: relative;
+    border:0.1em solid #29468d;
+    top: -130px;
+    left: 650px;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:700;
+    box-align: center;
+    
+    color: #29468d;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.button1:hover{
+    color:#000000;
+    position: relative;
+    background-color: white;
+}
+@media all and (max-width:30em){
+    a.button1{
+    display:block;
+    margin:0.4em auto;
+    }
+}
+
+#virus1{
+    position: relative;
+    left: 0px;
+    width: 75px;
+    bottom: 300px;
+    animation-name: virus1;
+    animation-duration: 20s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+@keyframes virus1{
+    from{
+        transform: rotate(0deg); 
+    }
+
+    to{
+        transform: rotate(45deg);
+    }
+}
+
+
+#virus2{
+    position: relative;
+    left: 900   px;
+    width: 75px;
+    top: 400px;
+    animation-name: virus2;
+    animation-duration: 20s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+@keyframes virus2{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg) ;
+    }
+}
+
+#virus3{
+    position: relative;
+    left: 900px;
+    width: 75px;
+    top: 10px;
+    animation-name: virus3;
+    animation-duration: 30s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes virus3{
+    from{
+        transform: rotate(0deg)
+    }
+
+    to{
+        transform: rotate(360deg) 
+    }
+}
+
+
+#virus4{
+    position: relative;
+    left: 550px;
+    width: 75px;
+    bottom: 400px;
+    animation-name: virus4;
+    animation-duration: 30s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+@keyframes virus4{
+    from{
+        transform: rotate(0deg); 
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+#virus5{
+    position: relative;
+    right: 500px;
+    width: 75px;
+    top: 250px;
+    animation-name: virus5;
+    animation-duration: 30s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+@keyframes virus5{
+    from{
+        transform: rotate(0deg); 
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+#ig{
+    width: 30px;
+    position: relative;
+    left: 10px;
+    top: 11px;
+}
+
+
+a.button2{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    position: relative;
+    top: -90px;
+    left: 1320px;
+    border:0.1em solid #29468d;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:700;
+    box-align: center;
+    
+    color: #29468d;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.button2:hover{
+    color:#000000;
+    position: relative;
+    background-color: white;
+}
+@media all and (max-width:30em){
+    a.button2{
+    display:block;
+    margin:0.4em auto;
+    }
+}
